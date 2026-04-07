@@ -38,11 +38,11 @@ RoboClaw 最大的价值在于打破了阶段壁垒：
 * **数据收集阶段**：VLM 观察场景，选定子任务，触发 EAP 机制进行自我重置并日夜收集数据。
 * **部署阶段**：同一个 VLM 监控任务进度，调度技能库。
 * **反哺训练**：部署中产生的执行轨迹和纠错经验，会被系统直接回收并输入到下一轮的模型训练中，实现真正意义上的“越用越聪明”。
-
-RoboClaw:https://github.com/RoboClaw-Robotics/RoboClaw/tree/main
 ---
 
 ## 四、 适用硬件与落地场景
 
 * **主适配硬件**：目前主要基于**智元机器人（Agibot G01）**进行了开源验证。
 * **测试场景**：包含卧室梳妆台整理、厨房置物架整理、书桌整理以及便利店货架取物等复杂、长线任务。
+
+RoboClaw:https://github.com/RoboClaw-Robotics/RoboClaw/tree/main
