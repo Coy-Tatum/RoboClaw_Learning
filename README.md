@@ -39,6 +39,7 @@ RoboClaw 最大的价值在于打破了阶段壁垒：
 * **部署阶段**：同一个 VLM 监控任务进度，调度技能库。
 * **反哺训练**：部署中产生的执行轨迹和纠错经验，会被系统直接回收并输入到下一轮的模型训练中，实现真正意义上的“越用越聪明”。
 
+RoboClaw:https://github.com/RoboClaw-Robotics/RoboClaw/tree/main
 ---
 
 ## 四、 适用硬件与落地场景
